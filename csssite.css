@@ -1,0 +1,31 @@
+@font-face {
+    font-family: MinhaFonte;
+    src: url("fonte3.ttf") format('truetype');
+}
+body{
+    background-image: url(fundo2.jpeg);
+    background-attachment: fixed;
+    background-size:cover;
+    color: rgb(0, 0, 0);
+}
+
+h1
+    {
+        font-family: MinhaFonte;
+        border: 5px rgb(39, 39, 39) solid;
+        padding: 3px;
+        width: 570px;
+        margin: auto;
+        background-size: cover;
+        background-position: center;
+    }
+
+#carouselExampleControls {
+    max-width: 1000px; /* Definir largura máxima */
+    margin: 0 auto; /* Centralizar horizontalmente */
+}
+
+.carousel-item img {
+    max-width: 100%; /* Imagens ocupam 100% da largura do carousel */
+    height: auto; /* Altura ajustável para manter proporção */
+}
